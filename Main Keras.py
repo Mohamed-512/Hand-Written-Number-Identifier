@@ -4,6 +4,7 @@ import tensorflow.keras.layers as layers
 import tensorflow.keras.models as models
 import tensorflow.lite as lite
 
+
 # Downloading MNIST data set from keras
 mnist = tf.keras.datasets.mnist
 (image_data_training, label_data_training), (image_data_testing, label_data_testing) = mnist.load_data()
