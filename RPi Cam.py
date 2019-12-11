@@ -10,7 +10,7 @@ import cv2
 
 camera = PiCamera()
 camera.resolution = (480, 480)
-camera.framerate = 32
+camera.framerate = 30
 rawCapture = PiRGBArray(camera, size=(480, 480))
 model = models.load_model('mnist_model.h5')
 arr_map = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
