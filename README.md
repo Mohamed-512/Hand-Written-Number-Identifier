@@ -6,3 +6,6 @@ Run any camera test file on the proper environment, by setting the model to be u
 
 ## Pretrained models
 A model was trained with 1 epoch with the settings in """Main Keras.py""" on all MNIST images and it scored more than 98% accuracy.
+
+## Notes
+* If tested in bad lighting, misclassifications can occur. To solve tweak the offset in split_colors() function in the ImageProcessor.py file.
